@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+  </head>
+  <body>
+    <!-- Display flex always in parent element (in this case 'section') -->
+    <!-- If not given flex direction, the default direction is row -->
+
+    <!-- justify-content: works in main-axis (row in this case) -->
+    <!-- align-items: works in secondary-axis (column in this case) -->
+    <section
+      style="
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <!-- div1 -->
+      <div style="height: 200px; width: 200px; background-color: red"></div>
+      <!-- div2 -->
+      <div style="height: 200px; width: 200px; background-color: green"></div>
+      <!-- div3 -->
+      <div style="height: 200px; width: 200px; background-color: blue"></div>
+    </section>
+  </body>
+</html>
