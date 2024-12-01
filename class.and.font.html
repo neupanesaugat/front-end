@@ -1,0 +1,59 @@
+<!-- unit -->
+<!-- px -->
+<!-- 1rem  => 16px  -->
+
+<!-- width  =>  100vw  -->
+<!-- height => 100vh  -->
+<!-- percentage -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class and Font</title>
+    <style>
+      body {
+        height: 100vh;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        height: 10rem;
+        width: 10rem;
+      }
+      .blue-box {
+        background-color: blue;
+      }
+      .green-box {
+        background-color: green;
+      }
+      .text {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      #first-text {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center; align-items: center">
+      <div class="box blue-box"></div>
+      <div class="box green-box"></div>
+    </div>
+    <p class="text">This is a <span style="color: red">HTML</span> class</p>
+    <p class="text">This is a new day.</p>
+    <p id="first-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consectetur
+      recusandae placeat? Amet officiis reprehenderit ducimus provident, cumque
+      voluptas consequuntur velit voluptates distinctio neque dicta illo beatae
+      quod eaque repellat?
+    </p>
+  </body>
+</html>
